@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="">
+        <label for="nombre">Nombre</label><br>
+        <input type="text" placeholder="Escribe aqui tu nombre" id="nombre">
+        <br><br>
+        <label for="email">Email</label><br>
+        <input type="email" placeholder="Escribe aqui tu email" id="email">
+        <br><br>
+        <label for="departamento">Departamento</label>
+        <select name="departamento" id="departamento">
+            <option value="RRHH">Recursos Humanos</option>
+            <option value="marketing">Marketing</option>
+            <option value="ventas">Ventas</option>
+            <option value="logistica">Logistica</option>
+            <br><br>
+        </select><br>
+        <br>
+        <label for="tipoJornada">Tipo de jornada:</label><br>
+        <input type="radio"name="jornada" id="parcial">
+        <label for="parcial">Parcial</label><br>
+        <input type="radio"name="jornada" id="completa">
+        <label for="completa">Completa</label><br>
+        <input type="radio"name="jornada" id="remoto">
+        <label for="remoto">Remoto</label><br>
+   
+        <p>Comentario:</p>
+        <textarea name="comentarios" id="Comentarios" placeholder="Escribe aqui tu comentario"></textarea><br>
+        <br>
+        <input type="checkbox"name="aceptar" id="aceptar">
+        <label for="aceptar">Aceptar condiciones</label><br>
+      
+        <br><br>
+        <button type="button"> Enviar</button>
+
+    </form>
+</body>
