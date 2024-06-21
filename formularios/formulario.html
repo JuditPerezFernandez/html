@@ -6,14 +6,15 @@
     <title>Formulario</title>
 </head>
 <body>
-    <h1>Formulario</h1>
     <form action="">
+         <h1>Formulario</h1>
         <label for="nombre">Nombre</label><br>
         <input type="text" placeholder="Escribe aqui tu nombre" id="nombre">
         <br><br>
         <label for="email">Email</label><br>
         <input type="email" placeholder="Escribe aqui tu email" id="email">
         <br><br>
+    
         <label for="departamento">Departamento</label>
         <select name="departamento" id="departamento">
             <option value="RRHH">Recursos Humanos</option>
@@ -33,12 +34,15 @@
    
         <p>Comentario:</p>
         <textarea name="comentarios" id="Comentarios" placeholder="Escribe aqui tu comentario"></textarea><br>
-        <br>
+        <br><br>
+        <label for="curriculum">Adjuntar curriculum</label><br>
+        <input type="file" name="curriculum" id="curriculum">
+        <br><br>
         <input type="checkbox"name="aceptar" id="aceptar">
         <label for="aceptar">Aceptar condiciones</label><br>
       
         <br><br>
-        <button type="button"> Enviar</button>
-
+   
+        <button type="button">Enviar Formulario</button>
     </form>
 </body>
